@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "pages/api/porters.js": {
+      "maxDuration": 60
+    }
+  }
+}
