@@ -173,13 +173,15 @@ export default function Home() {
             </span>
           </div>
           <p className="explanation-text">
-            Per a cada equip de la classificació, es llegeix el calendari complet i s&apos;analitza
-            una mostra d&apos;actes oficials repartides al llarg de la temporada per identificar el
-            jugador amb dorsal <strong>1</strong> (el porter titular) i comprovar quants d&apos;aquests
-            partits l&apos;equip ha acabat amb la porteria a zero. Després es consulta la fitxa
-            individual del porter per saber quants partits ha jugat i com a titular. Finalment es
-            combina amb els gols encaixats totals de l&apos;equip (l&apos;indicador més fiable de
-            quins equips encaixen menys) per obtenir una puntuació sobre 100.
+            Per a cada equip, s&apos;analitza una mostra d&apos;actes oficials repartides al llarg
+            de la temporada. El porter s&apos;identifica pel <strong>color de samarreta diferent</strong>{' '}
+            de la resta de jugadors convocats (titulars i suplents): el porter i el porter suplent
+            sempre vesteixen un color distint als jugadors de camp. D&apos;entre tots els
+            convocats amb el color minoritari, s&apos;agafa el que apareix més vegades com a
+            titular. Es comprova quants partits de la mostra l&apos;equip ha acabat amb la porteria
+            a zero i es consulta la fitxa individual del porter per saber quants partits ha jugat.
+            Tot plegat es combina amb els gols encaixats totals de l&apos;equip per obtenir una
+            puntuació sobre 100.
           </p>
         </section>
 
